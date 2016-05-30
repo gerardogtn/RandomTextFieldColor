@@ -10,9 +10,14 @@ import UIKit
 
 class ViewController: UIViewController {
 
+
+  @IBOutlet var textField : UITextField!
+  let textDelegate = MyTextDelegate()
+  
   override func viewDidLoad() {
     super.viewDidLoad()
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    textField.delegate = textDelegate
   }
 
   override func didReceiveMemoryWarning() {

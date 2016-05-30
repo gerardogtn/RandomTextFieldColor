@@ -31,6 +31,9 @@
                             <constraint firstItem="WC9-V7-IPk" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="10" id="aIL-4f-GSK"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="textField" destination="WC9-V7-IPk" id="REK-S0-s1f"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

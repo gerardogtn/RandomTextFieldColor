@@ -14,6 +14,7 @@
 		D47C1C981CFBF231005E3395 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D47C1C961CFBF231005E3395 /* LaunchScreen.storyboard */; };
 		D47C1CA31CFBF231005E3395 /* RandomColorTextInputIosAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47C1CA21CFBF231005E3395 /* RandomColorTextInputIosAppTests.swift */; };
 		D47C1CAE1CFBF231005E3395 /* RandomColorTextInputIosAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47C1CAD1CFBF231005E3395 /* RandomColorTextInputIosAppUITests.swift */; };
+		D47C1CBC1CFBF309005E3395 /* MyTextDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47C1CBB1CFBF309005E3395 /* MyTextDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		D47C1CA91CFBF231005E3395 /* RandomColorTextInputIosAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RandomColorTextInputIosAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D47C1CAD1CFBF231005E3395 /* RandomColorTextInputIosAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomColorTextInputIosAppUITests.swift; sourceTree = "<group>"; };
 		D47C1CAF1CFBF231005E3395 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D47C1CBB1CFBF309005E3395 /* MyTextDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTextDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				D47C1C941CFBF231005E3395 /* Assets.xcassets */,
 				D47C1C961CFBF231005E3395 /* LaunchScreen.storyboard */,
 				D47C1C991CFBF231005E3395 /* Info.plist */,
+				D47C1CBB1CFBF309005E3395 /* MyTextDelegate.swift */,
 			);
 			path = RandomColorTextInputIosApp;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D47C1C901CFBF231005E3395 /* ViewController.swift in Sources */,
+				D47C1CBC1CFBF309005E3395 /* MyTextDelegate.swift in Sources */,
 				D47C1C8E1CFBF231005E3395 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
